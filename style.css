@@ -41,3 +41,32 @@ footer {
     text-align: center;
     padding: 15px;
   }
+/* Box Model Practice */
+
+.box {
+    width: 250px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-box {
+    background-color: lightblue;
+}
+
+.padding-box {
+    background-color: lightgreen;
+    padding: 40px;
+}
+
+.border-box {
+    background-color: lightyellow;
+    border: 10px solid red;
+}
+
+.margin-box {
+    background-color: lightpink;
+    margin: 40px;
+    }
