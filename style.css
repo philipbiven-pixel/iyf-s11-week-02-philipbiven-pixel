@@ -70,3 +70,10 @@ footer {
     background-color: lightpink;
     margin: 40px;
     }
+/* Exercise 2 - Broken Box Fix */
+.broken-box {
+    width: 300px;
+    padding: 20px;
+    border: none;
+    box-sizing: border-box;
+}
