@@ -4,18 +4,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Typography Variables */
+:root {
+    --font-xs: 0.75rem;
+    --font-sm: 0.875rem;
+    --font-base: 1rem;
+    --font-lg: 1.125rem;
+    --font-xl: 1.25rem;
+    --font-2xl: 1.5rem;
+    --font-3xl: 1.875rem;
+    --font-4xl: 2.25rem;
+    /* Colors */
+    --color-primary: #0056b3;
+    --color-secondary: #28a745;
+    --color-background: #f4f4f4;
+    --color-text: #333333;
+    --color-muted: #6c757d;
 
-/* Style the whole page */
+    --color-primary-light: #4d94ff;
+    --color-primary-dark: #003d80;
+}
 body {
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: var(--font-base);
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+/* Header */
+{header 
+    background-color: var(--color-primary);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+    h1 {
+    font-size: var(--font-4xl);
 }
 
-/* Header */
-header {
+h2 {
+    font-size: var(--font-3xl);
+}
+
+h3 {
+    font-size: var(--font-2xl);
+}
+
+small {
+    font-size: var(--font-sm);
+}
     background-color: #0056b3;
     color: white;
     padding: 20px;
@@ -36,11 +73,12 @@ main {
 
 /* Footer */
 footer {
-    background-color: #222;
+    background-color: var(--color-primary-dark);
     color: white;
     text-align: center;
     padding: 15px;
-  }
+}
+
 /* Box Model Practice */
 
 .box {
