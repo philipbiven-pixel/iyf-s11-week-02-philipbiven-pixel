@@ -77,3 +77,33 @@ footer {
     border: none;
     box-sizing: border-box;
 }
+/* Card Component */
+
+.card {
+    width: 300px;
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.card button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    }
