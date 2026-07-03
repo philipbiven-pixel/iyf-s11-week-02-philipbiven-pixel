@@ -39,6 +39,40 @@
         text-align: center;
     }
 
+    /* Hover Effects */
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a:hover {
+    color: var(--color-secondary);
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Smooth Transitions */
+button,
+.card,
+nav a {
+    transition: all 0.3s ease;
+}
+
+/* Focus States */
+button:focus,
+nav a:focus {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* Responsive Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 }
 
 * {
@@ -247,4 +281,3 @@ nav {
     text-align: center;
     border: 2px solid gray;
     }
-
