@@ -1,4 +1,46 @@
 /* Reset default browser styles */
+
+/* Tablet */
+@media (min-width: 768px) {
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .card-row {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
 * {
     margin: 0;
     padding: 0;
