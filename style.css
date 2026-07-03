@@ -143,3 +143,23 @@ footer {
     padding: 10px 15px;
     cursor: pointer;
     }
+
+/* Flexbox Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    font-size: var(--font-xl);
+    font-weight: bold;
+        }
+
