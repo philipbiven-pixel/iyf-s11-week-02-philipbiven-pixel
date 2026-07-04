@@ -38,4 +38,4 @@ This project is a responsive personal portfolio website created during Week 2 of
 I experienced issues with GitHub Pages deployment and accidentally lost the contents of one HTML file while renaming it. I solved these problems by restoring the file, correcting file names, and fixing the GitHub Pages configuration.
 
 ## Live Demo
-https://philippbiven-pixel.github.io/iyf-s11-week-02-philippbiven-pixel/
+https://github.com/philippbiven-pixel/iyf-s11-week-02-philippbiven-pixel
